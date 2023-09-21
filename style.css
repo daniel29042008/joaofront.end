@@ -1,0 +1,29 @@
+/*Estilos CSS para o meu */
+
+header {
+    background-color: rgba(0, 68, 255, 0.823);
+    color: rgb(23, 7, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px ;
+}
+
+nav ul li{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+nav ul li{
+    color: rgb(199, 0, 0);
+    text-decoration: underline;
+}
