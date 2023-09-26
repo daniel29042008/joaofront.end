@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+p {
+    font: italic bold lem arial, helvetica, sans-serif;
+    text-align: end;
+
+}
+
+
+
+
+p {
+    text-align: end;
+}
+
+p {
+    text-align: justify;
+}
+
