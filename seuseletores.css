@@ -1,0 +1,36 @@
+ body {
+    font: normal lem arial, helvetica, sans-serif;
+
+ }
+
+ a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: red;
+ }
+
+ a:visited {
+    color: darkred;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ .especial.hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+ }
+
+ .especial::before {
+    content : '<<';
+    font-weight: lighter;
+ }
+
+ .especial::after {
+    content: '<<';
+    font-weight: lighter;
+ }
+
+ 
