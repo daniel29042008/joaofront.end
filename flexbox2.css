@@ -32,4 +32,27 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.conteiner-pai {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: red; /*cor de fundo*/
+}
+
+.conteiner-filho {
+    background-color: #741a9e;
+    width:  200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
  
+
+.caixa-1 {
+    padding: 50px;
+    border-radius: 20;
+}
