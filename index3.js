@@ -35,8 +35,8 @@ const terCarroProprio= false;
 
 /*5*/
 
-
- 
+const nome={João, Daniel, Lucas}
+const fraseMinuscola= 
 
 
 
