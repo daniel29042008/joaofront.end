@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            font: normal 18pt arial;
+
+        }
+    </style>
+
+    <h1>Iniciando os estudos com DOM</h1>
+
+    <p>Aqui tem um Parágrafo</p>
+    <p>Aprender a usar o <strong>Dom</strong> em Javascript</p>
+    <p id="pTeste">Qualquer Coisa</p>
+    <p class="pClasse">Outra Coisa</p>
+    <button>Clique em mim</button>
+    <button id="botão2">Clique em Mim Também</button>
+
+    <script>
+        let corpo = document.body
+        corpo.style.backgroundColor = 'black'
+
+        let Parágrafo1 = document.getElementsByTagName('p')[1]
+        Parágrafo1.style.color = 'red'
+
+        let Clique = document.quuerySelector('button');
+
+        clique.addEventListener('click', function(event) {
+            Parágrafo1.style.color = 'white';
+            corpo.style.backgroundColor = 'blue';
+        });
+
+        let mouse = document.getElementById('botão2')           
+
+        /* adicionar um evento que executa um código quando o mouse está
+        em cima do elemento */
+        mouse.addEventListener('mouseover', function(event){
+            cosole.log("Passou a mouse por cima")
+        })
+
+
+        /*adicionar um evento que execute um codigo quando o mouse sai
+        de cima do elemento*/
+        mouse.addEventListener('mouseout', function(event){
+            cosole.log("mouse saiu de cima")
+        });
+
+
+        /*adicionar um evemto que executa um codigo quando uma tecla
+        é pressionada*/
+        document.addEventListener('keydown', function(event){
+            cosole.log("tecla pressionada" + event.key);
+        })
+
+
+
+
+
+
+    /*dentro do meu documento, eu estou procurando algum elemento que 
+        tenha a ID "pTeste", e atribua ele a uma variavel Paragrafo2*/
+
+        let Parágrafo2 = document.getElementById('pTeste')
+        Parágrafo2.style.color = 'blue';
+
+        let Paragrafo3 = document.getElementsByClassName('pClasse')[0]
+        Paragrafo3.style.color = 'red'
+
+        let clique = document.querySelector('button')
+        
+        
+        clique.addEventListener('click', function(event){
+            Parágrafo1.style.color = 'white';
+            corpo.style.backgroundColor = 'blue'
+        })
+        
+
+
+        mouse.addEventListener('click', function(event){
+            //aqui vai o codigo
+            console.log("voce apertou no botão")
+        })
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
